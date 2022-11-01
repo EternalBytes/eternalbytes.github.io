@@ -51,9 +51,11 @@ body {
     }
 }
 
-.box h2 {
+.box p {
     color: #fff;
-    font-size: 10em;
+    font-size: 2em;
     position: relative;
     z-index: 3;
+    margin: 20px;
+    text-align: center;
 }
