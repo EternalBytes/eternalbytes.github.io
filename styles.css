@@ -51,7 +51,7 @@ body {
     }
 }
 
-.box p {
+.box > p {
     color: #fff;
     font-size: 2em;
     position: relative;
