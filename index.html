@@ -4,12 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/002699d784.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <title>CSS Border Animation</title>
+    <title>Portfolio Webpage</title>
 </head>
 <body>
-    <div class="box">
-        <p>This is my GitHub Page</p>
-    </div>
+    <!-- NAV START -->
+    <nav id="navbar">
+        <ul class="nav-list">
+            <li><a href="#welcome-section">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contacts">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- NAV END -->
+
+    <!-- WELCOME START -->
+    <section id="welcome-section">
+        <h1>
+            Olá, Meu nome é Maycon!
+        </h1>
+        <p>Este é o meu portifólio, fiz para apresentar minha experiência e meus interesses.</p>
+    </section>
+    <!-- WELCOME END -->
+
+    <!-- PROJECTS START -->
+    <section id="projects">
+        <div class="projects-section">
+        <h2 class="projects-section-header">Estes são alguns dos meus projetos</h2>
+
+        <div class="projects-grid">
+            <a 
+            href="https://mayconparanhos.github.io/My-freeCodeCamp-Certification-Projects/Responsive%20Web%20Design/Tribute%20Page/" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://i.postimg.cc/7Y5R6Z5R/martin-Luther-King.png" 
+                alt="Tribute Page" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>Tribute Page<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            <a 
+            href="https://mayconparanhos.github.io/My-freeCodeCamp-Certification-Projects/Responsive%20Web%20Design/Technical%20Documentation%20Page/" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://i.postimg.cc/8PNrTttX/Captura-de-tela-de-2022-11-03-02-17-02.png" 
+                alt="Technical Documentation Page" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>Technical Documentation Page<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            <a 
+            href="https://mayconparanhos.github.io/My-freeCodeCamp-Certification-Projects/Responsive%20Web%20Design/Survey%20Form/" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://i.postimg.cc/43J8t6fW/communityform.png" 
+                alt="Survey Form" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>Survey Form<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            <a 
+            href="https://mayconparanhos.github.io/My-freeCodeCamp-Certification-Projects/Responsive%20Web%20Design/Landing%20Page/" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://i.postimg.cc/9fC7Q1mQ/landingpage.png" 
+                alt="Landing Page" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>Landing Page<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            <a 
+            href="https://codepen.io/freeCodeCamp/full/wgGVVX" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" 
+                alt="JavaScript Calculator" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>JavaScript Calculator<span class="code">&#47;&gt;</span></p>
+            </a>
+
+            <a 
+            href="https://mayconparanhos.github.io/My-freeCodeCamp-Certification-Projects/Responsive%20Web%20Design/Magazine%20with%20CSS%20Grid/" 
+            target="_blank" 
+            class="project">
+                <img 
+                src="https://i.postimg.cc/C5qtJbR9/magazine.png" 
+                alt="Magazine with CSS Grid" 
+                class="project-image" />
+                
+                <p class="project-tile"><span class="code">&lt;</span>Magazine with CSS Grid<span class="code">&#47;&gt;</span></p>
+            </a>
+
+        </div>
+        </div>
+    </section>
+    <!-- PROJECTS END -->
+
+    <!-- CONTACT START -->
+    <section id="contacts" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Se você quer trabalhar comigo, me chame!</h2>
+            <p>Que tal, vamos tomar um café?</p>
+        </div>
+        <div class="contact-links">
+            <a 
+            href="https://www.facebook.com/maycon.paranhos.1" 
+            class="btn contact-details"
+            target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+
+            <a
+            id="profile-link" 
+            href="https://github.com/MayconParanhos" 
+            class="btn contact-details"
+            target="_blank"><i class="fa-brands fa-github"></i></i> GitHub</a>
+
+            <a 
+            href="https://twitter.com/mayconparanhos" 
+            class="btn contact-details"
+            target="_blank"><i class="fa-brands fa-twitter"></i></i> Twitter</a>
+
+            <a 
+            href="https://www.freecodecamp.org/Maycon-Paranhos" 
+            class="btn contact-details"
+            target="_blank"><i class="fa-brands fa-free-code-camp"></i> freeCodeCamp</a>
+        </div>
+    </section>
+    <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <p><i class="fa-sharp fa-solid fa-quote-left"></i>Tudo posso naquele que me fortalece.<i class="fa-solid fa-quote-right"></i> 
+            <span class="citation-author">-Filipenses 4:13</span>
+        </p>
+        <p>Criado por <a href="https://github.com/MayconParanhos" target="_blank" rel="Maycon">Maycon P.</a></p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script>
+        let initialScroll = window.pageYOffset;
+        window.onscroll = () => {
+            let currentScroll = window.pageYOffset;
+
+            if(initialScroll > currentScroll) {
+                document.getElementById("navbar").style.top = "0";
+            }else {
+                document.getElementById("navbar").style.top = "-90px";
+            }
+            initialScroll = currentScroll;
+        }
+    </script>
 </body>
 </html>
