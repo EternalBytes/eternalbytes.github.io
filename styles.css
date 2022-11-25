@@ -67,7 +67,7 @@ a {
     background-color: #DFBA57;
     box-shadow: 0 5px 10px #483401;
     z-index: 2;
-    transition: top .5s ease .4s;
+    transition: top .5s ease 1s;
 }
 
 .nav-list {
@@ -177,6 +177,7 @@ a {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .4);
     border-radius: 4px;
     overflow: hidden;
+    transition: transform .2s ease-in;
 }
 
 .code {
@@ -185,6 +186,9 @@ a {
 }
 .project:hover .code {
     color: #DFBA57;
+}
+.project:hover {
+    transform: scale(1.02);
 }
 
 .project-image {
