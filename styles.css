@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
 /* IMPORT FONTS */
 :root {
-    --main-white: #f0f0f0;
+    --main-white: #d0cdcd;
 }
 
 * {
@@ -66,8 +66,8 @@ a {
     justify-content: center;
     background-color: #DFBA57;
     box-shadow: 0 5px 10px #483401;
-    z-index: 5;
-    transition: top .5s ease .3s;
+    z-index: 2;
+    transition: top .5s ease .4s;
 }
 
 .nav-list {
@@ -75,20 +75,46 @@ a {
     list-style: none;
 }
 
+.glider {
+    display: none;
+    width: 95px;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    transition:  all .2s ease-in;
+}
+.nav-list li {
+    z-index: 4;
+}
+
+.nav-list li:nth-child(1):hover ~ .glider {
+    background-color: #AD8B31;
+    transform: translateX(0);
+    display: block;
+}
+.nav-list li:nth-child(2):hover ~ .glider {
+    background-color: #AD8B31;
+    transform: translateX(80%);
+    width: 120px;
+    display: block;
+}
+.nav-list li:nth-child(3):hover ~ .glider {
+    background-color: #AD8B31;
+    transform: translateX(180%);
+    width: 120px;
+    display: block;
+}
+
 .nav-list a {
     display: block;
     font-size: 2.2rem;
     padding: 1.6rem;
     color: #020417;
-    transition: all .2s ease .1s;
 }
-
 .nav-list a:hover {
-    background-color: #AD8B31;
     color: var(--main-white);
     text-shadow: 0 0 4px #473401;
 }
-
 
 
 #welcome-section {
