@@ -74,7 +74,7 @@ a {
 .glider {
     display: none;
     background-color: #AD8B31;
-    width: 90px;
+    width: 100px;
     height: 100%;
     z-index: 3;
     position: absolute;
@@ -89,21 +89,30 @@ a {
     display: block;
 }
 .nav-list li:nth-child(2):hover ~ .glider {
-    transform: translateX(83%);
-    width: 110px;
+    transform: translateX(100%);
     display: block;
 }
 .nav-list li:nth-child(3):hover ~ .glider {
-    transform: translateX(175%);
-    width: 115px;
+    transform: translateX(200%);
     display: block;
 }
 
 .nav-list a {
     display: block;
     font-size: 2rem;
-    padding: 1.6rem;
+    padding: 1.6rem 0;
+    width: 100px;
+    text-align: center;
     color: #020417;
+}
+@media (max-width: 700px) {
+    .nav-list a {
+        font-size: 1.1rem;
+        width: 80px;
+    }
+    .glider {
+        width: 80px;
+    }
 }
 .nav-list a:hover {
     color: var(--main-white);
