@@ -110,6 +110,9 @@ a {
         font-size: 1.5rem;
         width: 80px;
     }
+    #navbar {
+        width: 70%;
+    }
     .glider {
         width: 80px;
     }
