@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
 /* IMPORT FONTS */
 :root {
-    --main-white: #d0cdcd;
+    --main-white: #f4efef;
 }
 
 html {
@@ -66,49 +66,66 @@ a {
 }
 #navbar {
     position: fixed;
-    width: 60%;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    border-top: 2px solid #DFBA57;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);;
     display: flex;
-    justify-content: center;
-    background-color: #DFBA57;
-    box-shadow: 0 5px 10px #483401;
-    border-radius: 0 0 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0204176d;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     z-index: 2;
     overflow: hidden;
-    transition: top .5s ease 1s;
+    transition: all .3s ease-in;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .nav-list {
+    width: fit-content;
+    height: 85px;
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .glider {
-    display: none;
-    background-color: #AD8B31;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(128, 128, 128, 0.4);
     width: 100px;
     height: 100%;
     z-index: 3;
     position: absolute;
-    transition:  all .2s ease-in;
+    transition:  all .5s ease-in;
 }
+
 .nav-list li {
     z-index: 4;
 }
 
 .nav-list li:nth-child(1):hover ~ .glider {
     transform: translateX(0);
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 .nav-list li:nth-child(2):hover ~ .glider {
     transform: translateX(100%);
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 .nav-list li:nth-child(3):hover ~ .glider {
     transform: translateX(200%);
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 
 .nav-list a {
@@ -117,7 +134,7 @@ a {
     padding: 1.6rem 0;
     width: 100px;
     text-align: center;
-    color: #020417;
+    color: #fff;
 }
 @media (max-width: 700px) {
     .nav-list a {
@@ -125,10 +142,16 @@ a {
         width: 80px;
     }
     #navbar {
-        width: 70%;
+        width: 100%;
+        height: 70px;
     }
     .glider {
         width: 80px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
     }
 }
 .nav-list a:hover {
@@ -140,7 +163,7 @@ a {
 #welcome-section {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(65deg, #080C31 10%, #020417 100%);
+    background-color: #020417;
     color: var(--main-white);
     display: flex;
     justify-content: center;
