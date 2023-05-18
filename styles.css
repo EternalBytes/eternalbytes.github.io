@@ -66,6 +66,7 @@ a {
 }
 #navbar {
     position: fixed;
+    top: 0;
     width: 100%;
     border-top: 2px solid #DFBA57;
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);;
@@ -78,11 +79,15 @@ a {
     z-index: 2;
     overflow: hidden;
     transition: all .3s ease-in;
+    z-index: 10;
 }
 
 .logo img {
     width: 80px;
     height: 80px;
+}
+
+.no-select {
     -webkit-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
@@ -105,7 +110,6 @@ a {
     height: 100%;
     z-index: 3;
     position: absolute;
-    transition:  all .5s ease-in;
 }
 
 .nav-list li {
@@ -116,16 +120,19 @@ a {
     transform: translateX(0);
     visibility: visible;
     opacity: 1;
+    transition:  visibility .3s ease-in, opacity .3s ease-in .1s, transform .5s;
 }
 .nav-list li:nth-child(2):hover ~ .glider {
     transform: translateX(100%);
     visibility: visible;
     opacity: 1;
+    transition:  visibility .3s ease-in, opacity .3s ease-in .1s, transform .5s;
 }
 .nav-list li:nth-child(3):hover ~ .glider {
     transform: translateX(200%);
     visibility: visible;
     opacity: 1;
+    transition:  visibility .3s ease-in, opacity .3s ease-in .1s, transform .5s;
 }
 
 .nav-list a {
@@ -163,21 +170,126 @@ a {
 #welcome-section {
     width: 100%;
     height: 100vh;
-    background-color: #020417;
+    z-index: 0; 
+    position: relative;
+}
+
+#welcome-section .welcome-1{
+    width: 100%;
+    height: 100%;
     color: var(--main-white);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    z-index: 2;
+    background-color: #02041771;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    padding-top: 85px;
 }
 
-#welcome-section > p {
+#welcome-section .welcome-1 > p {
     font-size: 3rem;
     text-align: center;
     color: #DFBA57;
     font-weight: 200;
     font-style: italic;
+}
+
+.data-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data-container .photografy img {
+    width: 210px;
+    height: 210px;
+    display: block;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #dfbb57a7;
+    box-shadow: 0 0 20px #dfbb57c1;
+    transition: all .2s ease-in-out;
+}
+.data-container .photografy img:hover {
+    box-shadow: 0 0 50px #dfbb57c1;
+}
+
+.data-container .name {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.data-container .title{
+    font-size: 2rem;
+}
+
+.data-container .location {
+    display: flex;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.data-container .about-me {
+    margin-top: 15px;
+    padding: 15px 5px 15px 5px;
+}
+.data-container .about-me h1 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.data-container .text {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 700px) {
+    .data-container {
+        width: fit-content;
+    }
+    .data-container .photografy img {
+        width: 120px;
+        height: 120px;
+        padding: 1px;
+        box-shadow: 0 0 10px #dfbb57c1;
+    }
+    .data-container .name {
+        font-size: 1.7rem;
+    }
+    .data-container .title {
+        font-size: 1.2rem;
+    }
+    .data-container .location {
+        gap: 3px;
+        font-size: 1rem;
+    }
+    .data-container .location img {
+        width: 13px;
+        height: 13px;
+    }
+    .data-container .about-me h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .data-container .text {
+        font-size: 1.2rem;
+    }
+}
+
+#welcome-section .welcome-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("backImage.webp");
+    background-size: 100% 100%;
 }
 
 .projects-section {
@@ -246,6 +358,7 @@ a {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
+    border: 1px solid rgba(150, 150, 150, 0.4);
 }
 
 .contact-section {
@@ -271,6 +384,10 @@ a {
     .contact-section-header > h2 {
         font-size: 4rem;
     }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
 }
 
 .contact-section-header > p {
@@ -289,14 +406,20 @@ a {
 }
 
 .contact-details {
-    font-size: 2.4rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
     transition: background-color .3s ease-in-out;
     border-radius: 10px;
 }
 
 .contact-details:hover {
-    background-color: #dfbb579f;
+    background-color: #dfbb5737;
+    box-shadow: 0 0 10px #DFBA57;
+}
+
+@media (max-width: 700px) {
+    .contact-details {
+        font-size: 1.2rem;
+    }
 }
 
 footer {
