@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/002699d784.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Meu Portfólio</title>
@@ -11,15 +12,20 @@
 <body>
     <!-- NAV START -->
     <nav id="navbar">
-        <div class="logo">
-            <img class="no-select" src="MyLogo.png" alt="My portfolio logo">
+        <div class="nav-center">
+            <div class="nav-header">
+                <img class="no-select" src="MyLogo.png" alt="My portfolio logo">
+                <button class="nav-toggle">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <ul class="nav-list">
+                <li><a class="item" href="#welcome-section">Sobre</a></li>
+                <li><a class="item" href="#projects">Projetos</a></li>
+                <li><a class="item" href="#contacts">Contato</a></li>
+                <span class="glider"></span>
+            </ul>
         </div>
-        <ul class="nav-list">
-            <li><a href="#welcome-section">Sobre</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contacts">Contato</a></li>
-            <span class="glider"></span>
-        </ul>
     </nav>
     <!-- NAV END -->
 
@@ -37,7 +43,7 @@
                     <i class="fa-sharp fa-solid fa-location-dot"></i><p>São Paulo - Brazil</p><img class="no-select" width="22" height="22" src="./images/brazil.png" alt="Brasil">
                 </div>
                 <div class="title">
-                    <p>Go and JavaScript programmer - React Native developer</p>
+                    <p>Go and JavaScript programmer</p>
                 </div>
                 <div class="social-media">
                     <a
@@ -171,19 +177,5 @@
         <p>Criado por <a href="https://github.com/MayconParanhos" target="_blank" rel="Maycon">Maycon P.</a></p>
     </footer>
     <!-- FOOTER END -->
-
-    <script>
-        let initialScroll = window.pageYOffset;
-        window.onscroll = () => {
-            let currentScroll = window.pageYOffset;
-
-            if(initialScroll > currentScroll) {
-                document.getElementById("navbar").style.top = "0";
-            }else {
-                document.getElementById("navbar").style.top = "-90px";
-            }
-            initialScroll = currentScroll;
-        }
-    </script>
 </body>
 </html>
