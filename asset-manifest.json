@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2e00b5c.css",
+    "main.js": "/static/js/main.6df9dcd4.js",
+    "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
+    "static/media/full-stack-web-developer.svg": "/static/media/full-stack-web-developer.ae50a2b8950fe6c738b3318f82d4b338.svg",
+    "static/media/MyLogo.png": "/static/media/MyLogo.f844464ed9be75f69dc8.png",
+    "static/media/js2.svg": "/static/media/js2.072b13e0fbdfc603bbac5faf5311818d.svg",
+    "static/media/brazil.png": "/static/media/brazil.8d85be475522d99916e5.png",
+    "static/media/postgresql-svgrepo-com.svg": "/static/media/postgresql-svgrepo-com.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.06e50b3c1405a6236d75a9313c47d331.svg",
+    "static/media/goMascot.svg": "/static/media/goMascot.81a165ecbbe2b0165632d1beb08af79c.svg",
+    "static/media/react-logo-svgrepo-com.svg": "/static/media/react-logo-svgrepo-com.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/undraw_percentages_re_a1ao.svg": "/static/media/undraw_percentages_re_a1ao.575a3f62ec404848b66ba19dd87ef70b.svg",
+    "static/media/mysql-logo.svg": "/static/media/mysql-logo.f586030ae346497d3d321e6203efeead.svg",
+    "static/media/go-svgrepo-com.svg": "/static/media/go-svgrepo-com.bba620d13bb4e2c4c0d102d3ef91e93b.svg",
+    "static/media/nodejs-icon-svgrepo-com.svg": "/static/media/nodejs-icon-svgrepo-com.e7e718538ada32a8dc2b61340a397034.svg",
+    "static/media/java.svg": "/static/media/java.5e8cb917c7f11276e9f9d00d4dce53b5.svg",
+    "static/media/mysql-svgrepo-com.svg": "/static/media/mysql-svgrepo-com.f432904de5d6381c74695ae308881104.svg",
+    "static/media/golang.svg": "/static/media/golang.62f388ab462d6856fbe0a95b5347c31d.svg",
+    "static/media/aws-2.svg": "/static/media/aws-2.1baaa078f947505c36dc8ee7595f91da.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/google-cloud-2.svg": "/static/media/google-cloud-2.e67fbcf14be6e33b8f59d210c51c174f.svg",
+    "static/media/python-5.svg": "/static/media/python-5.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/vitejs.svg": "/static/media/vitejs.716c8992aea4e52bd746bad643a6784f.svg",
+    "static/media/mongodb-icon-1.svg": "/static/media/mongodb-icon-1.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/javascript.svg": "/static/media/javascript.e215e381c2c51ae24d6a90c6f38c821f.svg",
+    "static/media/giticon.svg": "/static/media/giticon.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "index.html": "/index.html",
+    "static/media/javascript-svgrepo-com.svg": "/static/media/javascript-svgrepo-com.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
+    "static/media/css-3.svg": "/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.315b8fdb9dbf75ae965b80bf368895cd.svg"
+  },
+  "entrypoints": [
+    "static/css/main.c2e00b5c.css",
+    "static/js/main.6df9dcd4.js"
+  ]
+}
