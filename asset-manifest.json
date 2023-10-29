@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2e00b5c.css",
-    "main.js": "/static/js/main.6df9dcd4.js",
+    "main.css": "/static/css/main.6569dd15.css",
+    "main.js": "/static/js/main.fbc2ee1e.js",
     "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
     "static/media/full-stack-web-developer.svg": "/static/media/full-stack-web-developer.ae50a2b8950fe6c738b3318f82d4b338.svg",
     "static/media/MyLogo.png": "/static/media/MyLogo.f844464ed9be75f69dc8.png",
     "static/media/js2.svg": "/static/media/js2.072b13e0fbdfc603bbac5faf5311818d.svg",
     "static/media/brazil.png": "/static/media/brazil.8d85be475522d99916e5.png",
+    "static/media/contact-svg.svg": "/static/media/contact-svg.2f766c09b7ce53b68bdbb40f591d6823.svg",
     "static/media/postgresql-svgrepo-com.svg": "/static/media/postgresql-svgrepo-com.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.06e50b3c1405a6236d75a9313c47d331.svg",
     "static/media/goMascot.svg": "/static/media/goMascot.81a165ecbbe2b0165632d1beb08af79c.svg",
@@ -25,6 +26,7 @@
     "static/media/vitejs.svg": "/static/media/vitejs.716c8992aea4e52bd746bad643a6784f.svg",
     "static/media/mongodb-icon-1.svg": "/static/media/mongodb-icon-1.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/javascript.svg": "/static/media/javascript.e215e381c2c51ae24d6a90c6f38c821f.svg",
+    "static/media/loading.svg": "/static/media/loading.a733bafc0b121499209e2f1716f7d0be.svg",
     "static/media/giticon.svg": "/static/media/giticon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/mongodb-svgrepo-com.svg": "/static/media/mongodb-svgrepo-com.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "index.html": "/index.html",
@@ -33,7 +35,7 @@
     "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.315b8fdb9dbf75ae965b80bf368895cd.svg"
   },
   "entrypoints": [
-    "static/css/main.c2e00b5c.css",
-    "static/js/main.6df9dcd4.js"
+    "static/css/main.6569dd15.css",
+    "static/js/main.fbc2ee1e.js"
   ]
 }
