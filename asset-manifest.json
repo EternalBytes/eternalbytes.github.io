@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6569dd15.css",
-    "main.js": "/static/js/main.25dac34e.js",
+    "main.css": "/static/css/main.0c26b892.css",
+    "main.js": "/static/js/main.ff5d1375.js",
+    "static/media/pixdagente.gif": "/static/media/pixdagente.a35c834b3d3b985c0eb2.gif",
     "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
+    "static/media/martin-Luther-King.png": "/static/media/martin-Luther-King.9dd67d44846e6bad7944.png",
+    "static/media/blackandwhite.webp": "/static/media/blackandwhite.56f0df37629c724a4839.webp",
     "static/media/full-stack-web-developer.svg": "/static/media/full-stack-web-developer.ae50a2b8950fe6c738b3318f82d4b338.svg",
+    "static/media/calculator.png": "/static/media/calculator.07822c5b23e6c049ba0a.png",
+    "static/media/Programing.svg": "/static/media/Programing.62b43f087d20511f75f8b85ed5ddc053.svg",
     "static/media/MyLogo.png": "/static/media/MyLogo.f844464ed9be75f69dc8.png",
     "static/media/js2.svg": "/static/media/js2.072b13e0fbdfc603bbac5faf5311818d.svg",
     "static/media/brazil.png": "/static/media/brazil.8d85be475522d99916e5.png",
@@ -35,7 +40,7 @@
     "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.315b8fdb9dbf75ae965b80bf368895cd.svg"
   },
   "entrypoints": [
-    "static/css/main.6569dd15.css",
-    "static/js/main.25dac34e.js"
+    "static/css/main.0c26b892.css",
+    "static/js/main.ff5d1375.js"
   ]
 }
