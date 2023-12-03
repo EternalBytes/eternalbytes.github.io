@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c26b892.css",
-    "main.js": "/static/js/main.ff5d1375.js",
+    "main.css": "/static/css/main.893146a8.css",
+    "main.js": "/static/js/main.69347d1f.js",
     "static/media/pixdagente.gif": "/static/media/pixdagente.a35c834b3d3b985c0eb2.gif",
     "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
     "static/media/martin-Luther-King.png": "/static/media/martin-Luther-King.9dd67d44846e6bad7944.png",
@@ -40,7 +40,7 @@
     "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.315b8fdb9dbf75ae965b80bf368895cd.svg"
   },
   "entrypoints": [
-    "static/css/main.0c26b892.css",
-    "static/js/main.ff5d1375.js"
+    "static/css/main.893146a8.css",
+    "static/js/main.69347d1f.js"
   ]
 }
