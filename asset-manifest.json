@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.893146a8.css",
-    "main.js": "/static/js/main.69347d1f.js",
+    "main.js": "/static/js/main.9531ba36.js",
     "static/media/pixdagente.gif": "/static/media/pixdagente.a35c834b3d3b985c0eb2.gif",
     "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
     "static/media/martin-Luther-King.png": "/static/media/martin-Luther-King.9dd67d44846e6bad7944.png",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.893146a8.css",
-    "static/js/main.69347d1f.js"
+    "static/js/main.9531ba36.js"
   ]
 }
