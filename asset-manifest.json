@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.893146a8.css",
-    "main.js": "/static/js/main.9dcb6985.js",
+    "main.css": "/static/css/main.b7c44a61.css",
+    "main.js": "/static/js/main.e486df13.js",
     "static/media/pixdagente.gif": "/static/media/pixdagente.a35c834b3d3b985c0eb2.gif",
     "static/media/movingBox.gif": "/static/media/movingBox.0a23d6d09489e23471c3.gif",
-    "static/media/me.webp": "/static/media/me.432927342bc3c0747acf.webp",
     "static/media/reviews.png": "/static/media/reviews.602089364e8a5eb8941a.png",
     "static/media/martin-Luther-King.png": "/static/media/martin-Luther-King.9dd67d44846e6bad7944.png",
     "static/media/blackandwhite.webp": "/static/media/blackandwhite.56f0df37629c724a4839.webp",
+    "static/media/me.png": "/static/media/me.044ade6e25e0d68a9c59.png",
     "static/media/paperwallet.webp": "/static/media/paperwallet.cdc707d6188a69ad394c.webp",
     "static/media/full-stack-web-developer.svg": "/static/media/full-stack-web-developer.ae50a2b8950fe6c738b3318f82d4b338.svg",
     "static/media/calculator.png": "/static/media/calculator.07822c5b23e6c049ba0a.png",
@@ -43,7 +43,7 @@
     "static/media/css-3-svgrepo-com.svg": "/static/media/css-3-svgrepo-com.315b8fdb9dbf75ae965b80bf368895cd.svg"
   },
   "entrypoints": [
-    "static/css/main.893146a8.css",
-    "static/js/main.9dcb6985.js"
+    "static/css/main.b7c44a61.css",
+    "static/js/main.e486df13.js"
   ]
 }
